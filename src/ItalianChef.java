@@ -1,4 +1,6 @@
-package PACKAGE_NAME;
-
-public class ItalianChef {
+public class ItalianChef implements IChef{
+    @Override
+    public void cookDish() {
+       System.out.println("Cooking Italian Dish : Pasta ");
+    }
 }
